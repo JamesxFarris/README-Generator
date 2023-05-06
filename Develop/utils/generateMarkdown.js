@@ -6,6 +6,18 @@ function renderLicenseBadge(license) {
     return "";
   }
   // Use a switch case here for license badge
+  // switch (license.toLowerCase()) {
+  //   case "mit":
+  //     return "https://opensource.org/licenses/MIT";
+  //   case "gplv2":
+  //     return "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html";
+  //   case "gplv3":
+  //     return "https://www.gnu.org/licenses/gpl-3.0";
+  //   case "apache":
+  //     return "https://opensource.org/licenses/Apache-2.0";
+  //   case "bsd 3-clause":
+  //     return "https://opensource.org/licenses/BSD-3-Clause";
+  // }
 }
 
 // TODO: Create a function that returns the license link
@@ -16,6 +28,18 @@ function renderLicenseLink(license) {
     return "";
   }
   // Use a switch case here for license link
+  switch (license.toLowerCase()) {
+    case "mit":
+      return "https://opensource.org/licenses/MIT";
+    case "gplv2":
+      return "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html";
+    case "gplv3":
+      return "https://www.gnu.org/licenses/gpl-3.0";
+    case "apache":
+      return "https://opensource.org/licenses/Apache-2.0";
+    case "bsd 3-clause":
+      return "https://opensource.org/licenses/BSD-3-Clause";
+  }
 }
 
 // TODO: Create a function that returns the license section of README
