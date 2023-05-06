@@ -9,7 +9,7 @@ const options = [
   { name: "GPLv2", value: "gplv2" },
   { name: "GPLv3", value: "gplv3" },
   { name: "Apache", value: "apache" },
-  { name: "BSD 3-Clause", value: "BSD 3-Clause" },
+  { name: "BSD 3-Clause", value: "bsd 3-clause" },
 ];
 const questions = [
   {
