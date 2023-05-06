@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 import { default as inquirer } from "inquirer";
 import { writeFile } from "fs";
-import { generateMarkdown } from "./utils/generateMarkdown";
+import { generateMarkdown } from "../utils/generateMarkdown.js";
 // TODO: Create an array of questions for user input
 // Create license options in an array and apply their value to dropdown selection
 const options = [
@@ -69,7 +69,12 @@ writeFile("README.md", generateMarkdown, (err) => {
 });
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions).then((data) => {
+    const markdown = generateMarkdown(data);
+    writeToFile("README.md", markdown);
+  });
+}
 
 // Function call to initialize app
 init();
