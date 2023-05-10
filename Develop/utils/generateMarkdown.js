@@ -11,6 +11,8 @@ function renderLicenseBadge(license) {
       return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
     case "bsd 3-clause":
       return "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+    case "none":
+      return "";
   }
 }
 
@@ -27,17 +29,21 @@ function renderLicenseLink(license) {
       return "https://opensource.org/licenses/Apache-2.0";
     case "bsd 3-clause":
       return "https://opensource.org/licenses/BSD-3-Clause";
+    case "none":
+      return "";
   }
 }
 
 // TODO: Create a function that returns the license section of README
 function renderLicenseSection(license) {
   // If there isnt one, return ""
-  return `## License: Distributed under the ${license} license ${renderLicenseBadge(
-    license
-  )}
+  if (license === "none") {
+    return "";
+  }
+  return `## License
+  Distributed under the ${license} license ${renderLicenseBadge(license)}
   
-  If you are interested in learning more about the license check ${renderLicenseLink(
+  If you are interested in learning more about this license: ${renderLicenseLink(
     license
   )}`;
 }
@@ -76,7 +82,7 @@ function generateMarkdown(data) {
   ## Questions
   For questions or support, please contact me at ${data.email}.
   
-  You can check out the project at (https://github.com/${data.username}.
+  You can check out the project at https://github.com/${data.github}.
 `;
 }
 

@@ -10,6 +10,7 @@ const options = [
   { name: "GPLv3", value: "gplv3" },
   { name: "Apache", value: "apache" },
   { name: "BSD 3-Clause", value: "bsd 3-clause" },
+  { name: "No License", value: "none" },
 ];
 const questions = [
   {
