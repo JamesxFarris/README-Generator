@@ -1,9 +1,5 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
-  if (!license) {
-    return "";
-  }
-
   switch (license.toLowerCase()) {
     case "mit":
       return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
@@ -20,10 +16,6 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 function renderLicenseLink(license) {
-  if (!license) {
-    return "";
-  }
-
   switch (license.toLowerCase()) {
     case "mit":
       return "https://opensource.org/licenses/MIT";
@@ -41,10 +33,6 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 function renderLicenseSection(license) {
   // If there isnt one, return ""
-  if (!license) {
-    return "";
-  }
-
   return `## License: Distributed under the ${license} license ${renderLicenseBadge(
     license
   )}
@@ -56,9 +44,6 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  if (!license) {
-    return "";
-  }
   return `# ${data.title}
 
   ${renderLicenseBadge(data.license)}
@@ -80,7 +65,6 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
   
-  ## License
   ${renderLicenseSection(data.license)}
   
   ## Contributing
