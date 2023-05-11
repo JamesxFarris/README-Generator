@@ -6,6 +6,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+  ![README_Generator_-_Made_with_Clipchamp__1__AdobeExpress](https://github.com/JamesxFarris/readme-generator/assets/51385562/413d82a5-a9a3-4337-9690-b1ee6edd940d)
+
+  
 [Watch the above example as a video](https://github.com/JamesxFarris/readme-generator/issues/2#issue-1704918987)
 
 </div>
