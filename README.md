@@ -10,7 +10,7 @@
 https://github.com/JamesxFarris/readme-generator/assets/51385562/052c8198-aa3d-4ea9-ba26-1bf403a9f535
 
   
-[Link to the above video:](https://github.com/JamesxFarris/readme-generator/issues/2#issue-1704918987)
+[Link to the above video](https://github.com/JamesxFarris/readme-generator/issues/2#issue-1704918987)
 
 </div>
 <hr>
