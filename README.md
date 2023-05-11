@@ -1,6 +1,16 @@
-# README Generator
+<div align="center">
+<h1 align="center"> README Generator </h1>
+
+📄📄📄📄📄 <br>
+<strong>A basic, yet efficient way to create your projects' README </strong>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+</div>
+
+![image](https://github.com/JamesxFarris/readme-generator/assets/51385562/61365e6c-9403-4e5f-bb16-73450882b57d)
+
+![image](https://github.com/JamesxFarris/readme-generator/assets/51385562/a2fa9644-178a-4cbb-ba03-fe22131c483e)
 
 ## Description
 
@@ -39,7 +49,7 @@ Distributed under the mit license [![License: MIT](https://img.shields.io/badge/
 
 If you are interested in learning more about the license check https://opensource.org/licenses/MIT
 
-## Contributing
+## Contributions
 
 Create an issue, solve it, commit your changes, then open a PR. A very basic procedure for a basic project. Please ensure code is clear and concise, with proper comments to ensure longevity and readability of the codebase.
 
