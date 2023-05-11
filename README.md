@@ -7,10 +7,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
+<hr>
 
 ![image](https://github.com/JamesxFarris/readme-generator/assets/51385562/61365e6c-9403-4e5f-bb16-73450882b57d)
 
 ![image](https://github.com/JamesxFarris/readme-generator/assets/51385562/a2fa9644-178a-4cbb-ba03-fe22131c483e)
+
+<hr>
 
 ## Description
 
